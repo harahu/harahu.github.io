@@ -10,11 +10,18 @@ twitter_username: harahudev
 github_username:  harahu
 
 # Build settings
-theme: jekyll-theme-slate
+remote_theme: pages-themes/midnight@v0.2.0
 plugins:
   - jekyll-feed
   - jekyll-github-metadata
   - jekyll-remote-theme
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
